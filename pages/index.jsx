@@ -7,7 +7,7 @@ export default function Home() {
         <title>MonoChrome</title>
       </Head>
 
-      <header className="header">
+      <header className="header mt-5 text-warning">
         Hello
         <img src="/images/banner.png" alt=""></img>
         <i className="fa-brands fa-youtube"></i>
@@ -16,7 +16,12 @@ export default function Home() {
         <i className="fa-brands fa-instagram-square"></i>
       </header>
 
-      <main className="main"></main>
+      <main className="content">
+        <div className="badge">
+        <i className="fa-regular fa-heart"></i>
+        </div>
+        <div className="button">view all</div>
+      </main>
 
       <footer className="footer"></footer>
     </div>
